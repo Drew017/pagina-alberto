@@ -1,0 +1,140 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  margin: auto;
+  display: flex;
+}
+
+.tabs{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  border-radius: 100px;
+  background-color: #1a1a1a;
+}
+
+.tabs li{
+  padding: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.tabs li:hover{
+  background-color: darkred;
+}
+
+.tabs li.active{
+  background-color: darkred;
+}
+
+.player-container{
+  max-width: 320px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.player-container img{
+  width: 25px;
+  height: 25px;
+}
+
+.player-container h1{
+  font-size: 11px;
+}
+
+.dado-fase-poder{
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dado-fase-poder img{
+  width: 100px;
+}
+
+.dado-fase-poder h1{
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  user-select: none;
+}
+
+.dado{
+  position: relative;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dado img{
+  width: 150px;
+}
+
+.dado h1{
+  position: absolute;
+  font-size: 48px;
+  top: 32%;
+  left: 40%;
+  user-select: none;
+}
+
+.imagen-dado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portada{
+  width: 1100px;
+  margin-top: 20px;
+}
+
+.carta{
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.carta-seleccionada{
+  width: 200px;
+  border-radius: 10px;
+}
+
+.texto-informativo{
+  text-align: justify;
+  padding: 10px;
+}
+
+.contenedor-texto{
+  background-color: #1a1a1a;
+  border-radius: 25px;
+}
+
+.tabla-num-selected{
+  background-color: darkred;
+}
+
+.tabla-aventuras{
+  list-style: none;
+}
