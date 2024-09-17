@@ -25,7 +25,7 @@ export function Aventuras({selectedImage,setSelectedImage,numeroPadre,setNumeroP
             (
                 <div className="portada">
                     <div className="imagen-dado">
-                        <img src={`/aventuras/${selectedImage}.jpg`} className="carta-seleccionada"/>
+                        <img src={`aventuras/${selectedImage}.jpg`} className="carta-seleccionada"/>
                         <Dado6 className={"dado"} texto={""} image={selectedImage} numeroPadre={numeroPadre} setNumeroPadre={setNumeroPadre} tag={"aventura"}/>
                         <input type="file" id="file-input-aventura" accept=".xlsx" required onChange={() => questSelection(numeroPadre,selectedImage)}/>
                     </div>
@@ -63,7 +63,7 @@ export function Aventuras({selectedImage,setSelectedImage,numeroPadre,setNumeroP
                         </h4>
                     </div>
                 {images.map((image,index) => (
-                    <img key={index} src={`/aventuras/${image}.jpg`} className="carta" onClick={() => handleClick(image)}/>
+                    <img key={index} src={`aventuras/${image}.jpg`} className="carta" onClick={() => handleClick(image)}/>
                 ))}
                 </div>
             )}

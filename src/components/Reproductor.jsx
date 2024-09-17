@@ -4,17 +4,17 @@ import { meterMusica } from "../scripts/functions";
 
 const tracks = [
     {
-      url: "/music/Battle At The Chain Of Balance.mp3",
+      url: "music/Battle At The Chain Of Balance.mp3",
       title: "Battle At The Chain Of Balance",
       tags: [""],
     },
     {
-        url: "/music/Brothers of Blood.mp3",
+        url: "music/Brothers of Blood.mp3",
         title: "Brothers of Blood",
         tags: [""],
     },
     {
-        url: "/music/Rage of Sparta.mp3",
+        url: "music/Rage of Sparta.mp3",
         title: "Rage of Sparta",
         tags: [""],
     },

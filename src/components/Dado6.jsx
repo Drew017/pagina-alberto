@@ -20,7 +20,7 @@ export function Dado6({className,texto,image,numeroPadre,setNumeroPadre,tag}){
     return(
         <div className={className} onClick={handleClick}>
             <h2>{texto}</h2>
-            <img src="/dados/d12.svg"/>
+            <img src="dados/D12.svg"/>
             <h1>{numeroPadre}</h1>
         </div>
     )
