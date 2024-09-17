@@ -40,7 +40,7 @@ export function meterMusica(listaMusica){
     if(files!=null){
         for (let i = 0; i < files.length; i++) {
             let newTrack = {
-                url:"/music/"+files[i].webkitRelativePath,
+                url:"music/"+files[i].webkitRelativePath,
                 title:files[i].name,
                 tags:[""],
             }
