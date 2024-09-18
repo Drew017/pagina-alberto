@@ -8,9 +8,9 @@ function App() {
   const [numeroPadre,setNumeroPadre] = useState(null);
 
   return (
-    <div className='imagen-dado'>
+    <div className='contenedor-principal'>
       <Tab/>
-      <div>
+      <div id='contenedor-musica-dado'>
         <Reproductor/>
         <Dado6 className={"dado-fase-poder"} texto={"Fase de Poder"} numeroPadre={numeroPadre} setNumeroPadre={setNumeroPadre}/>
       </div>
