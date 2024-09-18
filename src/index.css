@@ -145,3 +145,9 @@ body{
 .tabla-aventuras{
   list-style: none;
 }
+
+.icono-aventurero{
+  border-radius: 500px;
+  width: 250px;
+  margin: 10px;
+}

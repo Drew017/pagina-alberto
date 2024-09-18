@@ -50,3 +50,14 @@ export function meterMusica(listaMusica){
         }
     }
 }
+
+export function generarAventureros() {
+    const warriors = [];
+    for (let i = 0; i < 36; i++) {
+      warriors.push({
+        pdf: `aventureros/${i}.pdf`,
+        img: `aventureros/${i}.jpg`
+      });
+    }
+    return warriors;
+  }
