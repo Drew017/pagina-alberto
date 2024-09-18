@@ -15,7 +15,7 @@ export function Tab(){
     const [selectedImage,setSelectedImage] = useState(null);
     const [numeroPadreAventuras,setNumeroPadreAventuras] = useState(null);
     const [numeroTablaAventuras,setNumeroTablaAventuras] = useState(null);
-    const [eventosArray,setEventosArray] = useState(["base 01 a 19","base 20 a 31","base 32 a 64"]);
+    const [eventosArray,setEventosArray] = useState(["base 01 a 19","base 20 a 31","base 30 a 64","llevaajugararol","llevaanomuertos","llevaaorcos"]);
     const [monstruosArray,setMonstruosArray] = useState(["BASE01","BASE02","BASE03","BASE04","BASE05","BASE06","BASE07","BASE08","BASE09","BASE10",]);
 
     const handleClick = (index) =>{
