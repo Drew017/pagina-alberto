@@ -38,8 +38,8 @@ de Monstruos del mismo turno.</h4>
             <img src={`eventos/basico/${eventosArray[1]}.jpg`} className="carta" onClick={() => handleClick(31,20,1)}/>
             <img src={`eventos/basico/${eventosArray[2]}.jpg`} className="carta" onClick={() => handleClick(64,30,2)}/>
             <img src={`eventos/jugararol/${eventosArray[3]}.jpg`} className="carta" onClick={() => handleClick(43,1,3)}/>
-            <img src={`eventos/orcos/${eventosArray[4]}.jpg`} className="carta" onClick={() => handleClick(28,1,4)}/>
-            <img src={`eventos/nomuertos/${eventosArray[5]}.jpg`} className="carta" onClick={() => handleClick(34,1,5)}/>
+            <img src={`eventos/orcos/${eventosArray[4]}.jpg`} className="carta" onClick={() => handleClick(34,1,4)}/>
+            <img src={`eventos/nomuertos/${eventosArray[5]}.jpg`} className="carta" onClick={() => handleClick(28,1,5)}/>
         </div>
     )
 }
